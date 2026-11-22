@@ -28,6 +28,13 @@
     "accessed": "2026-11-22"
   },
   {
+    "id": "E05",
+    "title": "OpenCV Epipolar Geometry",
+    "url": "https://docs.opencv.org/4.13.0/da/de9/tutorial_py_epipolar_geometry.html",
+    "locator": "Basic concepts and Code",
+    "accessed": "2026-11-22"
+  },
+  {
     "id": "E06",
     "title": "LightGlue official",
     "url": "https://github.com/cvg/LightGlue",
@@ -39,6 +46,13 @@
     "title": "SuperGlue official",
     "url": "https://github.com/magicleap/SuperGluePretrainedNetwork",
     "locator": "README model overview",
+    "accessed": "2026-11-22"
+  },
+  {
+    "id": "E08",
+    "title": "OpenCV StereoSGBM",
+    "url": "https://docs.opencv.org/4.13.0/d2/d85/classcv_1_1StereoSGBM.html",
+    "locator": "Detailed Description and create",
     "accessed": "2026-11-22"
   }
 ]

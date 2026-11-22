@@ -36,7 +36,8 @@
     "filename": "影像感測與3D場景重建_05_空間轉換與共線條件式.pptx",
     "slides": 61,
     "author": "詹鈞評",
-    "status": "pending_ingest"
+    "status": "ingested",
+    "sha256": "e981868e1008c729bb9c5a47cbfb8a66f24047f6c75277dc1081fc2afd587591"
   },
   {
     "id": "S06",
@@ -51,6 +52,7 @@
     "filename": "影像感測與3D場景重建_07_核幾何.pptx",
     "slides": 54,
     "author": "詹鈞評",
-    "status": "pending_ingest"
+    "status": "ingested",
+    "sha256": "688cffd1cfbb75fbb16f5aa3f1f0e080440810f74619a8c0f96c709c0abdbe0a"
   }
 ]
