@@ -11,10 +11,13 @@ def run():
  catalog=json.loads((ROOT/'sources/catalog.json').read_text(encoding='utf-8'))
  counts={x['id']:x['slides'] for x in catalog}
  coverage=json.loads((ROOT/'sources/coverage.json').read_text(encoding='utf-8'))
- check('S02 slide coverage',sorted(x['slide'] for x in coverage)==list(range(1,45)),f'{len(coverage)} entries; 44 actual slides')
+ for item in catalog:
+  if item['status'] not in ['ingested','pilot_ingested']:continue
+  entries=[x for x in coverage if x['source']==item['id']]
+  check(item['id']+' slide coverage',sorted(x['slide'] for x in entries)==list(range(1,item['slides']+1)),f"{len(entries)} entries; {item['slides']} slides")
+  check(item['id']+' fingerprint',bool(re.fullmatch('[0-9a-f]{64}',item.get('sha256',''))),'SHA-256 recorded')
  check('coverage targets',all((ROOT/x['target']).is_file() for x in coverage),'Every disposition points to a real page')
- check('phase boundary',sum(x['status']=='pilot_ingested' for x in catalog)==1,'Only S02 ingested; six pending')
- check('source fingerprint',bool(re.fullmatch('[0-9a-f]{64}',catalog[1].get('sha256',''))),'SHA-256 recorded for S02; original PPT not tracked')
+ check('unique coverage',len({(x['source'],x['slide']) for x in coverage})==len(coverage),'One coverage record per source and slide')
  badlinks=[];badrefs=[];refcount=0;linkcount=0
  for p in ROOT.rglob('*.md'):
   if 'vendor' in p.parts: continue
@@ -28,7 +31,7 @@ def run():
    refcount+=1
    if sid not in counts or any(int(n)<1 or int(n)>counts.get(sid,0) for n in re.findall(r'\d+',span)):badrefs.append(sid+':'+span)
   if p.parent.name in ['concepts','cases']:
-   if not re.search(r'S02\s+p{1,2}\.',text):badrefs.append(p.name+': missing precise source')
+   if not re.search(r'S0[1-7]\s+p{1,2}\.',text):badrefs.append(p.name+': missing precise source')
  check('Markdown links',not badlinks,{'checked':linkcount,'broken':badlinks})
  check('slide references',not badrefs,{'checked':refcount,'invalid':badrefs,'limit':'Range/identity check, not claim fidelity'})
  xp,yp=4.3*.005,1.3*.005;cx,cy=2048+4.3,1500-1.3

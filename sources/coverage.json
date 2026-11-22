@@ -1,5 +1,837 @@
 [
   {
+    "source": "S01",
+    "slide": 1,
+    "target": "wiki/chapters/01-sensors.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 2,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 3,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 4,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 5,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 6,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 7,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 8,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 9,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 10,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 11,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 12,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 13,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 14,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 15,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 16,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 17,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 18,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 19,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 20,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 21,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 22,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 23,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 24,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 25,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 26,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 27,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 28,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 29,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 30,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 31,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 32,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 33,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 34,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 35,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 36,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 37,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 38,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 39,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 40,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 41,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 42,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 43,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 44,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 45,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 46,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 47,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 48,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 49,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 50,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 51,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 52,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 53,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 54,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 55,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 56,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 57,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 58,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 59,
+    "target": "wiki/concepts/sensing-quality.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 60,
+    "target": "wiki/concepts/sensor-geometry.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 61,
+    "target": "wiki/concepts/sensor-geometry.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 62,
+    "target": "wiki/concepts/sensor-geometry.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 63,
+    "target": "wiki/concepts/sensor-geometry.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 64,
+    "target": "wiki/concepts/sensor-geometry.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 65,
+    "target": "wiki/concepts/sensor-geometry.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 66,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 67,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 68,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 69,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 70,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 71,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 72,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 73,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 74,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 75,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 76,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 77,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 78,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 79,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 80,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 81,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 82,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 83,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 84,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 85,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 86,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 87,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 88,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 89,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 90,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 91,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 92,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 93,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 94,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 95,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 96,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 97,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 98,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 99,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 100,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 101,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 102,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 103,
+    "target": "wiki/concepts/camera-optics.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S01",
+    "slide": 104,
+    "target": "wiki/cases/hw1-camera.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
     "source": "S02",
     "slide": 1,
     "target": "wiki/chapters/02-calibration.md",
@@ -306,5 +1138,437 @@
     "target": "wiki/cases/hw2-calibration.md",
     "disposition": "任務流程，未執行實驗",
     "visual_review": true
+  },
+  {
+    "source": "S03",
+    "slide": 1,
+    "target": "wiki/chapters/03-planar.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 2,
+    "target": "wiki/chapters/03-planar.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 3,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 4,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 5,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 6,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 7,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 8,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 9,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 10,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 11,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 12,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 13,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 14,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 15,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 16,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 17,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 18,
+    "target": "wiki/concepts/planar-transforms.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 19,
+    "target": "wiki/cases/hw3-stitching.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 20,
+    "target": "wiki/cases/hw3-stitching.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 21,
+    "target": "wiki/cases/hw3-stitching.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 22,
+    "target": "wiki/cases/hw3-stitching.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 23,
+    "target": "wiki/cases/hw3-stitching.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 24,
+    "target": "wiki/cases/hw3-stitching.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 25,
+    "target": "wiki/cases/hw3-stitching.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 26,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 27,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 28,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 29,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 30,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 31,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 32,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 33,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 34,
+    "target": "wiki/concepts/least-squares.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 35,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 36,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 37,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 38,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 39,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 40,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 41,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 42,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 43,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 44,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 45,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 46,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 47,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 48,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 49,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 50,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 51,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 52,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 53,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
+  },
+  {
+    "source": "S03",
+    "slide": 54,
+    "target": "wiki/concepts/interpolation.md",
+    "disposition": "整理主張／推導或案例；分節／純圖頁只記結構與定性內容，不編造數據",
+    "visual_review": true,
+    "review_method": "全章縮圖與文字對照；公式使用原頁放大核對"
   }
 ]

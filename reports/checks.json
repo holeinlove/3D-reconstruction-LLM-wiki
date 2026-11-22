@@ -4,9 +4,34 @@
   "passed": true,
   "checks": [
     {
+      "check": "S01 slide coverage",
+      "passed": true,
+      "detail": "104 entries; 104 slides"
+    },
+    {
+      "check": "S01 fingerprint",
+      "passed": true,
+      "detail": "SHA-256 recorded"
+    },
+    {
       "check": "S02 slide coverage",
       "passed": true,
-      "detail": "44 entries; 44 actual slides"
+      "detail": "44 entries; 44 slides"
+    },
+    {
+      "check": "S02 fingerprint",
+      "passed": true,
+      "detail": "SHA-256 recorded"
+    },
+    {
+      "check": "S03 slide coverage",
+      "passed": true,
+      "detail": "54 entries; 54 slides"
+    },
+    {
+      "check": "S03 fingerprint",
+      "passed": true,
+      "detail": "SHA-256 recorded"
     },
     {
       "check": "coverage targets",
@@ -14,20 +39,15 @@
       "detail": "Every disposition points to a real page"
     },
     {
-      "check": "phase boundary",
+      "check": "unique coverage",
       "passed": true,
-      "detail": "Only S02 ingested; six pending"
-    },
-    {
-      "check": "source fingerprint",
-      "passed": true,
-      "detail": "SHA-256 recorded for S02; original PPT not tracked"
+      "detail": "One coverage record per source and slide"
     },
     {
       "check": "Markdown links",
       "passed": true,
       "detail": {
-        "checked": 113,
+        "checked": 193,
         "broken": []
       }
     },
@@ -35,7 +55,7 @@
       "check": "slide references",
       "passed": true,
       "detail": {
-        "checked": 63,
+        "checked": 136,
         "invalid": [],
         "limit": "Range/identity check, not claim fidelity"
       }

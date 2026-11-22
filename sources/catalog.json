@@ -4,7 +4,8 @@
     "filename": "影像感測與3D場景重建_01_影像感測器.pptx",
     "slides": 104,
     "author": "詹鈞評",
-    "status": "pending_ingest"
+    "status": "ingested",
+    "sha256": "4b2b87f416adc3caeec9d61c603c137a721631483cd9e3d22982959bc28358fa"
   },
   {
     "id": "S02",
@@ -19,7 +20,8 @@
     "filename": "影像感測與3D場景重建_03_平面影像轉換.pptx",
     "slides": 54,
     "author": "詹鈞評",
-    "status": "pending_ingest"
+    "status": "ingested",
+    "sha256": "283dee2a35797232459ecb560cf04cf7f6e1bddaf9625ab606f197d4e27004bf"
   },
   {
     "id": "S04",
