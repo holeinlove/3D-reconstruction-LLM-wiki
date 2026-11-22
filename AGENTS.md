@@ -27,3 +27,6 @@
 
 ## 七章教學入口改版
 七章簡報來源為 slides/chapters/01.json～07.json；原總覽仍為 slides/deck.json。修改後執行 build_slides.py、check_slides.cjs。slides/index.html 是卡片首頁，overview.html 才是原 22 頁總覽，勿再覆寫首頁為單份簡報。
+
+## 根網址與 Wiki 路由
+index.html 是七章課程首頁，wiki.html 是 Markdown Wiki 閱讀器。build.py 只產生 wiki.html 與 site-data.json；build_slides.py 產生根首頁、slides 首頁與各章簡報。不得再將 Wiki 閱讀器寫入根首頁。

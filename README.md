@@ -8,10 +8,10 @@
 - **[初學者教學 HTML 簡報](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/slides/)**：開啟即見七章卡片，點選進入該章簡報。
 - [七章改版驗收](reports/chapters-check.md) · [課程總覽與作業流程](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/slides/overview.html)
 - [初次簡報驗收紀錄](reports/slides-check.md)
-- **[線上 Wiki](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/)**
+- **[線上 Wiki](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/wiki.html)**
 - **[互動學習實驗室](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/#p=labs%2Findex.md)**
 - [Markdown 首頁](wiki/index.md)、[來源索引](wiki/sources.md)、[完整匯入紀錄](reports/course-import.md)。
-- 下載／clone 專案後，直接開啟 [index.html](index.html) 可離線閱讀；公式、搜尋與互動資產都在本機。GitHub 的 HTML 原始碼頁不是網頁預覽。
+- 下載／clone 專案後，直接開啟 [wiki.html](wiki.html) 可離線閱讀；公式、搜尋與互動資產都在本機。GitHub 的 HTML 原始碼頁不是網頁預覽。
 
 ## 互動模組
 | 模組 | 能觀察的關係 |
@@ -48,3 +48,6 @@ Markdown 是內容來源，修改後重建 HTML；不要只改 index.html 裡的
 課堂教材作者：詹鈞評，國立臺灣科技大學。原始 PPT 留在本機教材資料夾；公開庫不含原始 PPT、逐頁截圖、完整擷取文字或個人絕對路徑。[catalog.json](sources/catalog.json) 保存來源指紋，[coverage.json](sources/coverage.json) 保存逐頁去向。
 
 本次分三批整理，版本與檢查紀錄見 [course-import.md](reports/course-import.md)。AI 整理筆記不代表授課者已核定，疑點保持可見，外部查核與補充推導分列。結構／語法／理想算例檢查不能證明所有內容正確，也不等於實驗重現。
+
+## 根網址入口
+[根網址](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/) 直接呈現七章課程卡片。完整 Wiki 移至 wiki.html；舊根網址 #p= 來源連結會轉往 Wiki 對應頁，章節簡報來源亦直接指向新位置。

@@ -15,6 +15,6 @@ def build():
  serial=json.dumps(data,ensure_ascii=False)
  (ROOT/'site-data.json').write_text(serial+'\n',encoding='utf-8')
  template=(ROOT/'assets/template.html').read_text(encoding='utf-8')
- (ROOT/'index.html').write_text(template.replace('__WIKI_DATA__',serial.replace('<','\\u003c')),encoding='utf-8')
- print(f'Built {len(pages)} Markdown pages into index.html; content is embedded for file:// use.')
+ (ROOT/'wiki.html').write_text(template.replace('__WIKI_DATA__',serial.replace('<','\\u003c')),encoding='utf-8')
+ print(f'Built {len(pages)} Markdown pages into wiki.html; content is embedded for file:// use.')
 if __name__=='__main__': build()

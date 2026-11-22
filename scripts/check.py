@@ -48,7 +48,7 @@ def run():
  for n in ['README.md','AGENTS.md','SKILL.md','PRD.md','DESIGN.md']:
   check('root document '+n,(ROOT/n).is_file(),n)
  asset_missing=[]
- for p in [ROOT/'index.html',ROOT/'assets/template.html']:
+ for p in [ROOT/'index.html',ROOT/'wiki.html',ROOT/'assets/template.html']:
   if p.is_file():
    for rel in re.findall(r'(?:src|href)="([^"#]+)"',p.read_text(encoding='utf-8')):
     if not re.match(r'^(https?:|mailto:)',rel) and not (ROOT/rel).is_file():asset_missing.append(rel)
