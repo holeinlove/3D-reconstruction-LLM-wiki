@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Asia/Taipei",
+  "passed": false,
+  "checks": [
+    {
+      "check": "S02 slide coverage",
+      "passed": true,
+      "detail": "44 entries; 44 actual slides"
+    },
+    {
+      "check": "coverage targets",
+      "passed": true,
+      "detail": "Every disposition points to a real page"
+    },
+    {
+      "check": "phase boundary",
+      "passed": true,
+      "detail": "Only S02 ingested; six pending"
+    },
+    {
+      "check": "source fingerprint",
+      "passed": true,
+      "detail": "SHA-256 recorded for S02; original PPT not tracked"
+    },
+    {
+      "check": "Markdown links",
+      "passed": false,
+      "detail": {
+        "checked": 112,
+        "broken": [
+          "README.md:index.html",
+          "reports\\pilot-02.md:checks.json",
+          "reports\\pilot-02.md:math-check.json",
+          "reports\\pilot-02.md:browser-check.json"
+        ]
+      }
+    },
+    {
+      "check": "slide references",
+      "passed": true,
+      "detail": {
+        "checked": 63,
+        "invalid": [],
+        "limit": "Range/identity check, not claim fidelity"
+      }
+    },
+    {
+      "check": "textbook principal point",
+      "passed": true,
+      "detail": {
+        "PM_mm": [
+          0.0215,
+          0.006500000000000001
+        ],
+        "CV_pixel": [
+          2052.3,
+          1498.7
+        ]
+      }
+    },
+    {
+      "check": "coordinate round trip",
+      "passed": true,
+      "detail": "Forward and backward axes/units agree"
+    },
+    {
+      "check": "self-created RMSE example",
+      "passed": true,
+      "detail": {
+        "value_pixel": 0.5,
+        "definition": "sqrt(sum du²+dv² / N); not a measured result"
+      }
+    },
+    {
+      "check": "self-created focal example",
+      "passed": true,
+      "detail": "20 mm / 0.005 mm/pixel = 4000 pixel"
+    },
+    {
+      "check": "inverse sign synthetic example",
+      "passed": true,
+      "detail": "Known c(d)=0.01d; d=u-c(d). Does not validate textbook unknown coefficients."
+    },
+    {
+      "check": "root document README.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "check": "root document AGENTS.md",
+      "passed": true,
+      "detail": "AGENTS.md"
+    },
+    {
+      "check": "root document SKILL.md",
+      "passed": true,
+      "detail": "SKILL.md"
+    },
+    {
+      "check": "root document PRD.md",
+      "passed": true,
+      "detail": "PRD.md"
+    },
+    {
+      "check": "root document DESIGN.md",
+      "passed": true,
+      "detail": "DESIGN.md"
+    }
+  ],
+  "limitations": [
+    "Not an independent AI review",
+    "Not a real camera calibration",
+    "Does not validate external network links or every mathematical claim"
+  ]
+}

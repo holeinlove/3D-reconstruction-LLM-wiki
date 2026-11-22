@@ -1,0 +1,52 @@
+[
+  {
+    "id": "S01",
+    "filename": "影像感測與3D場景重建_01_影像感測器.pptx",
+    "slides": 104,
+    "author": "詹鈞評",
+    "status": "pending_ingest"
+  },
+  {
+    "id": "S02",
+    "filename": "影像感測與3D場景重建_02_相機率定.pptx",
+    "slides": 44,
+    "author": "詹鈞評",
+    "status": "pilot_ingested",
+    "sha256": "c4fb5bbb8937e05f39bbe805fe65083f161b4fb2a047458fda4a444a0011bd65"
+  },
+  {
+    "id": "S03",
+    "filename": "影像感測與3D場景重建_03_平面影像轉換.pptx",
+    "slides": 54,
+    "author": "詹鈞評",
+    "status": "pending_ingest"
+  },
+  {
+    "id": "S04",
+    "filename": "影像感測與3D場景重建_04_影像匹配.pptx",
+    "slides": 52,
+    "author": "詹鈞評",
+    "status": "pending_ingest"
+  },
+  {
+    "id": "S05",
+    "filename": "影像感測與3D場景重建_05_空間轉換與共線條件式.pptx",
+    "slides": 61,
+    "author": "詹鈞評",
+    "status": "pending_ingest"
+  },
+  {
+    "id": "S06",
+    "filename": "影像感測與3D場景重建_06_影像匹配之應用.pptx",
+    "slides": 68,
+    "author": "詹鈞評",
+    "status": "pending_ingest"
+  },
+  {
+    "id": "S07",
+    "filename": "影像感測與3D場景重建_07_核幾何.pptx",
+    "slides": 54,
+    "author": "詹鈞評",
+    "status": "pending_ingest"
+  }
+]

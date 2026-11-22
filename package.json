@@ -1,0 +1,1 @@
+{"name":"3d-reconstruction-llm-wiki","version":"0.1.0","private":true,"type":"commonjs","scripts":{"build":"python scripts/build.py","check":"python scripts/check.py","check:math":"node scripts/check_math.cjs"}}

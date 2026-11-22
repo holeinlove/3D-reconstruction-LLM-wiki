@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Asia/Taipei",
+  "method": "Codex in-app browser via cua_repl",
+  "passed": true,
+  "desktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "pages_checked": 33,
+    "math_errors": 0,
+    "unreplaced_math_tokens": 0,
+    "horizontal_document_overflow": 0
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "concept_and_case_pages_checked": 8,
+    "math_errors": 0,
+    "horizontal_document_overflow": 0
+  },
+  "interactions": {
+    "search_query": "主點",
+    "search_results": 10,
+    "listed_links": 10,
+    "home_in_results": true,
+    "mobile_menu_expanded": true,
+    "principal_point_case_contains_2052_3": true,
+    "chapter02_navigation_links": 17
+  },
+  "console_errors": [],
+  "limitations": [
+    "Browsed over local HTTP; file:// behavior supported by embedded data and local assets but not separately browser-tested",
+    "Print stylesheet inspected in source, not print-preview tested",
+    "No independent semantic review"
+  ]
+}

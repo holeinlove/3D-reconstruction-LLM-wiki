@@ -1,0 +1,23 @@
+# 來源索引
+
+## 課堂教材
+作者：詹鈞評，國立臺灣科技大學人工智慧跨域科技研究所。頁碼一律採 PowerPoint 實體投影片順序，含封面，不依擷取文字中的頁碼推算。
+
+| ID | 教材 | 頁數 | 狀態 |
+| --- | --- | --- | --- |
+| S01 | 01 影像感測器 | 104 | 待匯入 |
+| S02 | 02 相機率定 | 44 | 已完成本次試做整理，待使用者確認 |
+| S03 | 03 平面影像轉換 | 54 | 待匯入 |
+| S04 | 04 影像匹配 | 52 | 待匯入 |
+| S05 | 05 空間轉換與共線條件式 | 61 | 待匯入 |
+| S06 | 06 影像匹配之應用 | 68 | 待匯入 |
+| S07 | 07 核幾何 | 54 | 待匯入 |
+
+原始檔名與 S02 雜湊見 [catalog.json](../sources/catalog.json)，逐頁去向見 [coverage.json](../sources/coverage.json)。未公開原始教材，本頁不提供假裝可下載的連結。
+
+## 外部查核（僅輔助，不取代教材）
+- **E01**：[OpenCV 4.13.0 幾何模組](https://docs.opencv.org/4.13.0/d9/d0c/group__calib3d.html)，Detailed Description。核對 normalized coordinates、K 與畸變參數慣例。
+- **E02**：[OpenCV 4.13.0 率定教學](https://docs.opencv.org/4.13.0/dc/dbb/tutorial_py_calibration.html)，Basics、Code、Re-projection Error。核對角點、影像修正與重投影概念。
+- **E03**：[Zhang 原始技術報告](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr98-71.pdf)，§2.2–2.3、§3.1–3.3。核對平面單應性、旋轉正交約束及非線性最佳化。課堂 p.35 引用的是 Zhang (2000)，此處連到作者官方技術報告版本，版本不可混稱。
+
+以上查閱日均為 2026-11-22。每頁以 E01／E02／E03 標記外部補充；算例另註來源或自建。

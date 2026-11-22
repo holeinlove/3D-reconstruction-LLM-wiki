@@ -1,0 +1,9 @@
+raw/*
+!raw/README.md
+.local/
+__pycache__/
+*.pyc
+*.pptx
+*.pdf
+~$*
+node_modules/

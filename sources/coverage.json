@@ -1,0 +1,310 @@
+[
+  {
+    "source": "S02",
+    "slide": 1,
+    "target": "wiki/chapters/02-calibration.md",
+    "disposition": "封面或分節頁，作章節結構，不抽取新主張",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 2,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 3,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 4,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 5,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 6,
+    "target": "wiki/chapters/02-calibration.md",
+    "disposition": "封面或分節頁，作章節結構，不抽取新主張",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 7,
+    "target": "wiki/chapters/02-calibration.md",
+    "disposition": "封面或分節頁，作章節結構，不抽取新主張",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 8,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 9,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 10,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 11,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 12,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 13,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 14,
+    "target": "wiki/concepts/intrinsics.md",
+    "disposition": "內參與主點；p.17 另有數值案例",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 15,
+    "target": "wiki/concepts/intrinsics.md",
+    "disposition": "內參與主點；p.17 另有數值案例",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 16,
+    "target": "wiki/concepts/intrinsics.md",
+    "disposition": "內參與主點；p.17 另有數值案例",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 17,
+    "target": "wiki/concepts/intrinsics.md",
+    "disposition": "內參與主點；p.17 另有數值案例",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 18,
+    "target": "wiki/concepts/intrinsics.md",
+    "disposition": "內參與主點；p.17 另有數值案例",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 19,
+    "target": "wiki/concepts/coordinate-systems.md",
+    "disposition": "座標／課程觀點；p.13 用語入疑點",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 20,
+    "target": "wiki/chapters/02-calibration.md",
+    "disposition": "封面或分節頁，作章節結構，不抽取新主張",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 21,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 22,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 23,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 24,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 25,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 26,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 27,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 28,
+    "target": "wiki/chapters/02-calibration.md",
+    "disposition": "封面或分節頁，作章節結構，不抽取新主張",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 29,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 30,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 31,
+    "target": "wiki/concepts/distortion.md",
+    "disposition": "公式保留，疑點另列，不宣稱全部可直接實作",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 32,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 33,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 34,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 35,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 36,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 37,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 38,
+    "target": "wiki/concepts/calibration-methods.md",
+    "disposition": "方法與案例；pp.35–36 另連棋盤格推導",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 39,
+    "target": "wiki/concepts/undistortion.md",
+    "disposition": "圖表僅定性／映射方向待查",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 40,
+    "target": "wiki/concepts/undistortion.md",
+    "disposition": "圖表僅定性／映射方向待查",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 41,
+    "target": "wiki/concepts/undistortion.md",
+    "disposition": "圖表僅定性／映射方向待查",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 42,
+    "target": "wiki/concepts/undistortion.md",
+    "disposition": "圖表僅定性／映射方向待查",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 43,
+    "target": "wiki/concepts/undistortion.md",
+    "disposition": "圖表僅定性／映射方向待查",
+    "visual_review": true
+  },
+  {
+    "source": "S02",
+    "slide": 44,
+    "target": "wiki/cases/hw2-calibration.md",
+    "disposition": "任務流程，未執行實驗",
+    "visual_review": true
+  }
+]
