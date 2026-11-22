@@ -1,0 +1,352 @@
+{
+  "title": "兩張照片，如何變成 3D？",
+  "language": "zh-Hant",
+  "slides": [
+    {
+      "title": "兩張照片，如何變成 3D？",
+      "body": "<p class=\"lead\">從影像感測到三維重建的第一堂課</p><div class=\"journey\"><span>看見</span><b>→</b><span>找對</span><b>→</b><span>算深度</span></div><p>對象：第一次接觸影像幾何的學習者<br>約 25–35 分鐘 · 不需先會矩陣運算</p>",
+      "refs": [
+        {
+          "path": "wiki/index.md",
+          "label": "七章 Wiki 總覽"
+        }
+      ],
+      "lab": null,
+      "note": "先用左右眼看同一物體作比喻；這份簡報是模型教學，不是一次實拍重建實驗。",
+      "kind": "lesson"
+    },
+    {
+      "title": "你將能解釋這三件事",
+      "body": "<ol class=\"goals\"><li>為什麼單張照片很難決定距離？</li><li>電腦怎麼知道兩張照片拍到同一個點？</li><li>為什麼越遠的物體，深度越容易算不準？</li></ol><p class=\"callout\">先猜 → 操作示範 → 說出原因 → 回 Wiki 看推導。</p>",
+      "refs": [
+        {
+          "path": "wiki/cases/sfm-pipeline.md",
+          "label": "S04 pp.51–52：重建流程"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "先看完整路線，再拆成小問題",
+      "body": "<div class=\"journey\"><span>取像</span><b>→</b><span>率定</span><b>→</b><span>匹配</span><b>→</b><span>幾何</span><b>→</b><span>點雲</span></div><p>率定告訴我們相機怎麼投影；匹配找同一物點；幾何把多個觀看方向交會。</p><p class=\"callout\">拍到重疊區是起點；有照片並不保證能重建。</p>",
+      "refs": [
+        {
+          "path": "wiki/cases/sfm-pipeline.md",
+          "label": "S04 p.51；S05 pp.58–60"
+        },
+        {
+          "path": "wiki/cases/hw4-stereo.md",
+          "label": "S07 pp.41–54：立體重建案例"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "照片保留方向，卻壓掉了深度",
+      "body": "<div class=\"split\"><div><p>針孔模型（Pinhole Model）像一個小孔：同一射線上的遠近點，會落在同一像點。</p><p>採 CV 前方虛擬像平面，且 $Z_c>0$、忽略畸變：</p><div class=\"equation\">$$u=f_x X_c/Z_c+c_x$$</div></div><div class=\"ray\"><span>相機 ●</span><i>────────●────●</i><small>近點與遠點 → 同一觀看方向</small></div></div><p>$(X_c,Z_c)$ 同乘 2，比例不變，所以單一像點沒有唯一深度。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/intrinsics.md",
+          "label": "S02 pp.14–16：投影與推導"
+        }
+      ],
+      "lab": null,
+      "note": "此頁採 CV 約定；不與課堂 PM 負焦距公式混用。",
+      "kind": "lesson"
+    },
+    {
+      "title": "一個像素，在地面有多大？",
+      "body": "<p>地面取樣距離（Ground Sampling Distance, GSD）描述每像素涵蓋的物方大小。</p><div class=\"equation\">$$GSD=Hs/f$$</div><p>H：距離；s：像元尺寸；f：焦距。s 與 f 必須先換成相同單位。</p><p class=\"callout\">垂直拍平面、理想針孔模型下：距離加倍，GSD 加倍。GSD 不是量測精度保證。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "S01 pp.61–65：幾何與限制"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：拉遠相機會怎樣？",
+      "body": "<p>先預測：H 從 500 m 改成 1000 m，GSD 會從 10 變成多少 cm/pixel？</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "S01 pp.61–65"
+        }
+      ],
+      "lab": "gsd",
+      "note": "答案是 20 cm/pixel；固定焦距與感測器尺寸時，視場角不變。",
+      "kind": "lesson"
+    },
+    {
+      "title": "率定：先認識自己的相機",
+      "body": "<div class=\"split\"><div><h3>內參 Intrinsics</h3><p>像素焦距、主點：把相機中的方向轉為影像像素。</p><h3>外參 Extrinsics</h3><p>位置與姿態：把世界中的點轉到相機座標。</p></div><div><h3>鏡頭畸變 Distortion</h3><p>真實鏡頭偏離理想針孔，直線可能彎曲。率定（Calibration）估計模型參數。</p><p class=\"callout\">低重投影誤差，不等於所有空間量測都準確。</p></div></div>",
+      "refs": [
+        {
+          "path": "wiki/concepts/intrinsics.md",
+          "label": "S02 pp.8–9,18,27"
+        },
+        {
+          "path": "wiki/concepts/calibration-methods.md",
+          "label": "S02：率定方法與條件"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：網格為什麼會彎？",
+      "body": "<p>將 k₁ 改成負值，觀察外圍與中心。這是「產生畸變」的簡化模型，不是校正工具。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/distortion.md",
+          "label": "S02 pp.20–26；E01：係數慣例"
+        }
+      ],
+      "lab": "distortion",
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "匹配：找到同一物點的兩次出現",
+      "body": "<div class=\"journey\"><span>偵測特徵</span><b>→</b><span>描述外觀</span><b>→</b><span>找候選</span><b>→</b><span>幾何驗證</span></div><p>特徵（Feature）可像穩定的角點；描述子（Descriptor）把附近外觀編成可比較的數值。</p><p class=\"callout\">長得像，還不夠。重複窗戶可能很像，卻是不同物點。</p><p>比率測試看候選是否含糊；隨機取樣一致性（RANSAC）找支持共同幾何模型的匹配。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/feature-matching.md",
+          "label": "S04 pp.47–50：描述子與比率"
+        },
+        {
+          "path": "wiki/concepts/robust-estimation.md",
+          "label": "S04 p.50：幾何驗證"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：外觀篩選與幾何篩選",
+      "body": "<p>觀察兩個不同問題：d₁/d₂ 越接近 1，候選越難區分；假定內點比例 w 降低，RANSAC 通常需要更多次抽樣。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/robust-estimation.md",
+          "label": "S04 pp.47,50；Wiki 補充機率式"
+        }
+      ],
+      "lab": "matching",
+      "note": "距離是描述子差異，不是物理距離；RANSAC 次數公式是模型假設下的機率估計，不是正確性保證。",
+      "kind": "lesson"
+    },
+    {
+      "title": "平面拼接，還不是一般 3D 重建",
+      "body": "<div class=\"split\"><div><h3>平面轉換 Homography</h3><p>用 H 對應兩張影像的平面位置；一般透視轉換不保證平行線仍平行。</p></div><div><h3>三維場景</h3><p>不同深度可有不同視差；不能期待一個平面模型對齊所有物體。</p></div></div><p class=\"callout\">有漂亮的全景拼接，不代表已得到每個點的三維座標。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.7–18：模型比較"
+        },
+        {
+          "path": "wiki/cases/hw3-stitching.md",
+          "label": "S03：HW3 拼接案例"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "極線：把二維搜尋縮成一條線",
+      "body": "<p>核幾何／極幾何（Epipolar Geometry）：已知兩相機關係，左圖一個點會限制右圖的候選位置。</p><div class=\"equation\">$$l\\prime=Fx,\\qquad x\\prime{}^T F x=0$$</div><p>F：基本矩陣（Fundamental Matrix）；x、x′：齊次像點；l′：右圖極線。</p><p class=\"callout\">落在線上是必要幾何條件，還需要外觀與可見性判斷，才知道是哪一個點。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "S07 pp.3–8,17–24：共面約束"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：點移動，極線也跟著移動",
+      "body": "<p>改變左圖 u、v，再調整右圖候選 u′、v′，觀察「點到極線距離」。灰點是同一射線上三個自建深度的投影。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "S07 pp.3–8,17–24；自建幾何示意"
+        }
+      ],
+      "lab": "epipolar",
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "視差：同一物點在左右圖的位移",
+      "body": "<p>先去畸變並做立體糾正（Stereo Rectification），使對應點落在同一水平列。平行雙目、共同像素焦距，主點差已消除時：</p><div class=\"equation\">$$u_L=fX/Z+c_x,\\quad u_R=f(X-B)/Z+c_x$$$$d=u_L-u_R=fB/Z\\quad\\Rightarrow\\quad Z=Bf/d$$</div><p>B：基線（m）；f：像素焦距（pixel）；d：視差（pixel）；Z：沿光軸深度（m）。</p><p class=\"callout\">相減消掉 X 和主點，留下深度。f 用 mm、d 用 pixel 時不能直接代入。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "S07 pp.34–39；Wiki 推導補齊"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：視差減半，深度怎麼變？",
+      "body": "<p>自建算例：B＝0.2 m、f＝1000 pixel、d＝40 pixel，得到 Z＝5 m。改成 d＝20 再比較。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "S07 pp.36–39；Wiki 自建算例"
+        }
+      ],
+      "lab": "stereo",
+      "note": "固定 B、f 與小視差標準差時，視差減半，深度加倍、深度標準差近似變四倍。零視差沒有有限結果。這不是相機實測精度。",
+      "kind": "lesson"
+    },
+    {
+      "title": "點雲是中間成果，還需要檢查",
+      "body": "<div class=\"journey\"><span>匹配</span><b>→</b><span>三角交會</span><b>→</b><span>稀疏點雲</span><b>→</b><span>稠密匹配</span></div><p>運動結構回復（Structure from Motion, SfM）估相機關係與三維點；光束法平差（Bundle Adjustment）共同調整相機與點。</p><p>多視角立體（Multi-view Stereo, MVS）利用已估相機關係取得更密集的點。</p><p class=\"callout\">檢查遮蔽、重複紋理、尺度來源與殘差定義。稀疏點雲不是完整表面。</p>",
+      "refs": [
+        {
+          "path": "wiki/cases/sfm-pipeline.md",
+          "label": "S04 pp.51–52；S05 pp.58–60"
+        },
+        {
+          "path": "wiki/cases/hw4-stereo.md",
+          "label": "S07 pp.41–54：作業方法，未實拍執行"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "快速檢查：你會怎麼解釋？",
+      "body": "<div class=\"quiz\"><p>固定 B、f，視差從 40 變成 20 pixel，深度會：</p><button data-answer=\"wrong\">減半</button><button data-answer=\"right\">加倍</button><button data-answer=\"wrong\">不變</button><p id=\"quiz-feedback\" role=\"status\" aria-live=\"polite\">選一個答案，再說出原因。</p></div><details><summary>再想兩題：點在線上就一定對？GSD 就是精度？</summary><p>都不是。極線只提供幾何限制；GSD 只描述物方取樣大小。還需要可靠匹配與誤差分析。</p></details>",
+      "refs": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "深度公式與條件"
+        },
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "極線限制"
+        },
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "GSD 定義"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "這份教材如何從 Wiki 生成？",
+      "body": "<div class=\"flow\" role=\"img\" aria-label=\"來源登錄到 Wiki，再到簡報；來源錯回原頁、敘述錯回 Wiki、畫面錯回 HTML\"><span>① 來源登錄<br><small>7 份／437 頁</small></span><b>↓</b><span>② 原頁核對 → 證據卡 → Wiki</span><b>↓</b><span>③ 查詢 Wiki → 選教學目標 → 逐頁稿</span><b>↓</b><span>④ 來源／條件關卡 → HTML ＋互動</span><b>↓</b><span>⑤ 數值與瀏覽器驗收 → Pages</span></div><p>來源或符號不清 → 回②；敘述缺證據 → 回③；互動或版面錯 → 回④。每項最多修 3 輪，仍不清楚就列待查。</p>",
+      "refs": [
+        {
+          "path": "workflow/graph.md",
+          "label": "實際 workflow：節點、回圈與停止條件"
+        },
+        {
+          "path": "sources/coverage.json",
+          "label": "437 頁來源去向"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "process"
+    },
+    {
+      "title": "為什麼把檢查拆成幾個小回圈？",
+      "body": "<div class=\"split\"><div><h3>知識回圈</h3><p>查 Wiki → 對照來源／符號／假設 → 修正逐頁稿。未解疑點不轉為肯定結論。</p><h3>模型回圈</h3><p>已知值 → 不變量 → 零分母等退化測試 → 修數值或提示。</p></div><div><h3>呈現回圈</h3><p>HTML → 桌面／手機 → 公式、導航、來源、重設 → 修呈現。</p><p class=\"callout\">哪個節點出錯，就回哪個節點；避免為修排版而重寫已核對的公式。</p></div></div><p>實作是檔案與腳本組成的工作流程；不是多個獨立代理自行完成的全自動系統。</p>",
+      "refs": [
+        {
+          "path": "workflow/graph.md",
+          "label": "Loop 與停止條件"
+        },
+        {
+          "path": "reports/course-import.md",
+          "label": "已執行三批與互動驗收"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "process"
+    },
+    {
+      "title": "實際檢查：成功代表什麼？",
+      "body": "<table><thead><tr><th>檢查對象</th><th>已執行結果</th><th>能證明的範圍</th></tr></thead><tbody><tr><td>Wiki 來源登錄</td><td>7 份、437 頁</td><td>有逐頁去向；不等於每項主張無誤</td></tr><tr><td>Wiki 公式語法</td><td>243 組通過</td><td>可渲染；不是數學證明</td></tr><tr><td>互動模型</td><td>26 項數值／不變量通過</td><td>理想模型的已知情況</td></tr><tr><td>Wiki 瀏覽器</td><td>桌面 102 頁／手機 51 頁通過</td><td>先前 Wiki 版本的呈現檢查</td></tr><tr><td>本次 HTML 簡報</td><td>22 頁桌面＋手機；五模組操作通過</td><td>7 組公式語法、37 個來源目標通過</td></tr></tbody></table><p class=\"callout\">上述是既有 Wiki 的紀錄。本次簡報另有檢查報告，與 Wiki 歷史結果分開保存。</p>",
+      "refs": [
+        {
+          "path": "reports/course-import.md",
+          "label": "Wiki 匯入與檢查紀錄"
+        },
+        {
+          "path": "reports/lab-checks.json",
+          "label": "26 項模型測試"
+        },
+        {
+          "path": "reports/slides-check.md",
+          "label": "本次簡報實際檢查紀錄"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "process"
+    },
+    {
+      "title": "反思：最容易失真的節點在哪裡？",
+      "body": "<p><strong>主要風險在「從來源整理成跨章敘述」：</strong>同一符號可有不同慣例，算例也可能省略固定條件。現有紀錄沒有逐節點失敗次數，不能宣稱有統計上的最高錯誤率。</p><div class=\"split\"><div><h3>已發現的問題</h3><p>PM／CV 方向不同；MR 算術不一致；焦距與深度誤差敘述未明示固定量。</p></div><div><h3>已調整的 Graph</h3><p>在證據卡前核對原頁，在逐頁稿前核對單位／條件；互動先測零分母，再做 UI。</p></div></div><p class=\"callout\">檢查前移，讓有疑義的公式不會變成流暢卻錯誤的教學句子。</p>",
+      "refs": [
+        {
+          "path": "wiki/issues.md",
+          "label": "疑點原述、處置與待查狀態"
+        },
+        {
+          "path": "reports/course-import.md",
+          "label": "實際反思與驗證界線"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "process"
+    },
+    {
+      "title": "帶走一條主線，再回 Wiki 深入",
+      "body": "<div class=\"journey\"><span>成像有模型</span><b>→</b><span>匹配要驗證</span><b>→</b><span>深度有條件</span></div><p>先重玩 GSD、極線與視差示範，再閱讀完整推導。想實作時，從重疊取像、率定與品質記錄開始。</p><p class=\"callout\">本次交付是 Wiki、教學簡報與理想模型示範；沒有新實拍重建或授課者核定。</p>",
+      "refs": [
+        {
+          "path": "wiki/index.md",
+          "label": "完整 Wiki"
+        },
+        {
+          "path": "labs/index.md",
+          "label": "全部九個互動模組"
+        },
+        {
+          "path": "wiki/sources.md",
+          "label": "S01–S07、E01–E08 來源索引"
+        },
+        {
+          "path": "reports/slides-check.md",
+          "label": "本次簡報檢查與修正紀錄"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    }
+  ]
+}

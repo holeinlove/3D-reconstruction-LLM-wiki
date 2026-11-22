@@ -1,0 +1,314 @@
+{
+  "date": "2026-11-22",
+  "passed": true,
+  "slides": 22,
+  "formulas": 7,
+  "references": 37,
+  "interactive_modules": 5,
+  "errors": [],
+  "coverage": [
+    {
+      "slide": 1,
+      "title": "兩張照片，如何變成 3D？",
+      "wiki_sources": [
+        {
+          "path": "wiki/index.md",
+          "label": "七章 Wiki 總覽"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 2,
+      "title": "你將能解釋這三件事",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/sfm-pipeline.md",
+          "label": "S04 pp.51–52：重建流程"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 3,
+      "title": "先看完整路線，再拆成小問題",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/sfm-pipeline.md",
+          "label": "S04 p.51；S05 pp.58–60"
+        },
+        {
+          "path": "wiki/cases/hw4-stereo.md",
+          "label": "S07 pp.41–54：立體重建案例"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 4,
+      "title": "照片保留方向，卻壓掉了深度",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/intrinsics.md",
+          "label": "S02 pp.14–16：投影與推導"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 5,
+      "title": "一個像素，在地面有多大？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "S01 pp.61–65：幾何與限制"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 6,
+      "title": "動手試：拉遠相機會怎樣？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "S01 pp.61–65"
+        }
+      ],
+      "interactive": "gsd"
+    },
+    {
+      "slide": 7,
+      "title": "率定：先認識自己的相機",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/intrinsics.md",
+          "label": "S02 pp.8–9,18,27"
+        },
+        {
+          "path": "wiki/concepts/calibration-methods.md",
+          "label": "S02：率定方法與條件"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 8,
+      "title": "動手試：網格為什麼會彎？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/distortion.md",
+          "label": "S02 pp.20–26；E01：係數慣例"
+        }
+      ],
+      "interactive": "distortion"
+    },
+    {
+      "slide": 9,
+      "title": "匹配：找到同一物點的兩次出現",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/feature-matching.md",
+          "label": "S04 pp.47–50：描述子與比率"
+        },
+        {
+          "path": "wiki/concepts/robust-estimation.md",
+          "label": "S04 p.50：幾何驗證"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 10,
+      "title": "動手試：外觀篩選與幾何篩選",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/robust-estimation.md",
+          "label": "S04 pp.47,50；Wiki 補充機率式"
+        }
+      ],
+      "interactive": "matching"
+    },
+    {
+      "slide": 11,
+      "title": "平面拼接，還不是一般 3D 重建",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.7–18：模型比較"
+        },
+        {
+          "path": "wiki/cases/hw3-stitching.md",
+          "label": "S03：HW3 拼接案例"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 12,
+      "title": "極線：把二維搜尋縮成一條線",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "S07 pp.3–8,17–24：共面約束"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 13,
+      "title": "動手試：點移動，極線也跟著移動",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "S07 pp.3–8,17–24；自建幾何示意"
+        }
+      ],
+      "interactive": "epipolar"
+    },
+    {
+      "slide": 14,
+      "title": "視差：同一物點在左右圖的位移",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "S07 pp.34–39；Wiki 推導補齊"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 15,
+      "title": "動手試：視差減半，深度怎麼變？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "S07 pp.36–39；Wiki 自建算例"
+        }
+      ],
+      "interactive": "stereo"
+    },
+    {
+      "slide": 16,
+      "title": "點雲是中間成果，還需要檢查",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/sfm-pipeline.md",
+          "label": "S04 pp.51–52；S05 pp.58–60"
+        },
+        {
+          "path": "wiki/cases/hw4-stereo.md",
+          "label": "S07 pp.41–54：作業方法，未實拍執行"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 17,
+      "title": "快速檢查：你會怎麼解釋？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "深度公式與條件"
+        },
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "極線限制"
+        },
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "GSD 定義"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 18,
+      "title": "這份教材如何從 Wiki 生成？",
+      "wiki_sources": [
+        {
+          "path": "workflow/graph.md",
+          "label": "實際 workflow：節點、回圈與停止條件"
+        },
+        {
+          "path": "sources/coverage.json",
+          "label": "437 頁來源去向"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 19,
+      "title": "為什麼把檢查拆成幾個小回圈？",
+      "wiki_sources": [
+        {
+          "path": "workflow/graph.md",
+          "label": "Loop 與停止條件"
+        },
+        {
+          "path": "reports/course-import.md",
+          "label": "已執行三批與互動驗收"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 20,
+      "title": "實際檢查：成功代表什麼？",
+      "wiki_sources": [
+        {
+          "path": "reports/course-import.md",
+          "label": "Wiki 匯入與檢查紀錄"
+        },
+        {
+          "path": "reports/lab-checks.json",
+          "label": "26 項模型測試"
+        },
+        {
+          "path": "reports/slides-check.md",
+          "label": "本次簡報實際檢查紀錄"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 21,
+      "title": "反思：最容易失真的節點在哪裡？",
+      "wiki_sources": [
+        {
+          "path": "wiki/issues.md",
+          "label": "疑點原述、處置與待查狀態"
+        },
+        {
+          "path": "reports/course-import.md",
+          "label": "實際反思與驗證界線"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "slide": 22,
+      "title": "帶走一條主線，再回 Wiki 深入",
+      "wiki_sources": [
+        {
+          "path": "wiki/index.md",
+          "label": "完整 Wiki"
+        },
+        {
+          "path": "labs/index.md",
+          "label": "全部九個互動模組"
+        },
+        {
+          "path": "wiki/sources.md",
+          "label": "S01–S07、E01–E08 來源索引"
+        },
+        {
+          "path": "reports/slides-check.md",
+          "label": "本次簡報檢查與修正紀錄"
+        }
+      ],
+      "interactive": null
+    }
+  ],
+  "limit": "Source target and TeX syntax checks; not independent semantic proof"
+}

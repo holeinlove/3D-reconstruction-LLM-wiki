@@ -28,3 +28,6 @@
 
 ## 來源、流程與真實紀錄
 [術語](glossary.md) · [來源索引](sources.md) · [疑點台帳](issues.md) · [流程 Graph](../workflow/graph.md) · [本次六章匯入與互動驗收](../reports/course-import.md) · [初次試做歷史紀錄](../reports/pilot-02.md) · [日誌](log.md)。
+
+## 初學者教學簡報
+[開啟 22 頁 HTML 簡報](../slides/index.html)：兩張照片，如何變成 3D？保留五個互動示範、來源對應、流程與反思。[簡報檢查紀錄](../reports/slides-check.md)。

@@ -2,9 +2,11 @@
 
 以七份課堂教材建立的個人複習知識庫，繁體中文加英文術語，保留關鍵公式推導、應用案例、來源頁碼與查核疑點。
 
-**7／7 份教材已匯入，覆蓋 437 張投影片；已加入九個互動學習模組。** 尚未製作後續初學者教學 HTML 簡報。原始教材與實拍資料不在公開儲存庫，算例不冒充實測成果。
+**7／7 份教材已匯入，覆蓋 437 張投影片；已加入九個互動學習模組。** 已完成 22 頁初學者教學 HTML 簡報，含五個內嵌互動示範。原始教材與實拍資料不在公開儲存庫，算例不冒充實測成果。
 
 ## 閱讀入口
+- **[初學者教學 HTML 簡報](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/slides/)**：兩張照片，如何變成 3D？含來源對應、Loop／Graph、實際檢查與反思。
+- [本次簡報驗收紀錄](reports/slides-check.md)
 - **[線上 Wiki](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/)**
 - **[互動學習實驗室](https://holeinlove.github.io/3D-reconstruction-LLM-wiki/#p=labs%2Findex.md)**
 - [Markdown 首頁](wiki/index.md)、[來源索引](wiki/sources.md)、[完整匯入紀錄](reports/course-import.md)。
@@ -33,6 +35,8 @@ Python 3.10+、Node.js，只使用標準函式庫與專案內已固定版本資�
 ```bash
 python scripts/check.py
 python scripts/build.py
+python scripts/build_slides.py
+node scripts/check_slides.cjs
 node scripts/check_math.cjs
 node scripts/check_labs.cjs
 python -m http.server 8765
