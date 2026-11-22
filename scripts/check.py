@@ -1,6 +1,7 @@
 """Check declared invariants; does not replace source/semantic review."""
 from pathlib import Path
-import json,re,math
+import json,re,math,sys
+if hasattr(sys.stdout,"reconfigure"): sys.stdout.reconfigure(encoding="utf-8")
 ROOT=Path(__file__).resolve().parents[1]
 def run():
  errors=[]; results=[]
