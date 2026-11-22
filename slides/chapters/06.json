@@ -1,0 +1,112 @@
+{
+  "title": "影像匹配之應用",
+  "description": "從多光譜與地理對位案例，學會選模型並看懂匹配指標。",
+  "chapter": 6,
+  "language": "zh-Hant",
+  "slides": [
+    {
+      "title": "影像匹配之應用",
+      "body": "<p class=\"lead\">從多光譜與地理對位案例，學會選模型並看懂匹配指標。</p><div class=\"journey\"><span>理解概念</span><b>→</b><span>操作觀察</span><b>→</b><span>回顧應用</span></div><p>第 06 章 · 初學者教學與複習<br>使用下方箭頭翻頁，隨時回到章節首頁。</p>",
+      "refs": [
+        {
+          "path": "wiki/chapters/06-applications.md",
+          "label": "S06：章節導覽與教材頁碼"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "不同波段，看見的外觀可能不同",
+      "body": "<p>RGB、近紅外與熱影像對同一場景可能呈現不同灰階關係；多鏡頭還有不同姿態與畸變。</p><p>影像套合（Registration）希望讓不同來源的像素對應同一物點，不只是把兩張圖疊在一起。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/multispectral-registration.md",
+          "label": "S06 pp.4–10"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "點數要控制，幾何也要驗證",
+      "body": "<p>教材的 N-SURF 思路分尺度找局部極值，再用累積分布（CDF）選門檻，控制各影像的特徵數。</p><p>比較仿射 AT、透視 PT 與附加畸變項的 EPT 時，要看殘差向量是否仍有系統模式。</p><p class=\"callout\">某案例有效的模型，不代表所有場景都最好。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/multispectral-registration.md",
+          "label": "S06 pp.11–15,24–29"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "三個比率，三種分母",
+      "body": "<p>依教材定義：FA、FB 為特徵數，M 為匹配對，D 為重複匹配，CM 為過濾後正確數。</p><div class=\"equation\">$$MR=100\\frac{2M}{F_A+F_B},\\quad DR=100\\frac{D}{M},\\quad CR=100\\frac{CM}{M-D}$$</div><p>名稱與分母需隨研究確認；分母為零是未定義，不是 0%。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/matching-metrics.md",
+          "label": "S06 pp.16–18"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：改計數，看看指標",
+      "body": "<p>用教材 FA＝13、FB＝15、M＝6、D＝2、CM＝3 重算。MR 應為 42.86%，原頁 66% 已列疑點；DR 約 33.33%，CR 為 75%。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/matching-metrics.md",
+          "label": "S06 p.16；Wiki 算術核對"
+        }
+      ],
+      "lab": "metrics",
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "案例：UAV 對位衛星影像",
+      "body": "<p>將空拍影像與具有地理參考的影像建立對應，再進行幾何驗證與位置估計。</p><p>要一起報告成功／失敗數、像方誤差與物方位置誤差；教材不同計數的分母疑點不能自行補成成功率。</p>",
+      "refs": [
+        {
+          "path": "wiki/cases/geographic-registration.md",
+          "label": "S06 pp.34–42,59–68"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "學習式匹配也有不同角色",
+      "body": "<p>SuperPoint 處理特徵偵測與描述；SuperGlue 結合特徵資訊推斷匹配；LightGlue 是另一種具有適應性計算的匹配方法。</p><p class=\"callout\">教材標題與架構圖有名稱差異，已在 Wiki 查核區分。學習式方法仍需幾何與場景驗證。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/learned-matching.md",
+          "label": "S06 pp.43–58；E06／E07 外部查核"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "本章回顧：用自己的話說一次",
+      "body": "<p>從多光譜與地理對位案例，學會選模型並看懂匹配指標。</p><p class=\"callout\">回想本章：關鍵公式需要哪些條件？互動參數改變後，你能解釋結果嗎？</p><p>需要完整推導時，展開下方「來源與延伸」。</p><p><a href=\"index.html\">← 回到七章課程</a></p>",
+      "refs": [
+        {
+          "path": "wiki/chapters/06-applications.md",
+          "label": "S06：完整筆記與延伸"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    }
+  ]
+}

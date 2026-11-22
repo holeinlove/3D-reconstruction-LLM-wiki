@@ -1,0 +1,112 @@
+{
+  "title": "空間轉換與共線條件式",
+  "description": "理解座標旋轉、物點投影及交會，連到實際工程量測。",
+  "chapter": 5,
+  "language": "zh-Hant",
+  "slides": [
+    {
+      "title": "空間轉換與共線條件式",
+      "body": "<p class=\"lead\">理解座標旋轉、物點投影及交會，連到實際工程量測。</p><div class=\"journey\"><span>理解概念</span><b>→</b><span>操作觀察</span><b>→</b><span>回顧應用</span></div><p>第 05 章 · 初學者教學與複習<br>使用下方箭頭翻頁，隨時回到章節首頁。</p>",
+      "refs": [
+        {
+          "path": "wiki/chapters/05-collinearity.md",
+          "label": "S05：章節導覽與教材頁碼"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "同一個點，在兩套座標裡",
+      "body": "<p>外方位描述相機位置與姿態。計算前先說明：矩陣把哪個空間轉到哪個空間？是旋轉物點，還是旋轉座標軸？</p><p>本章互動採課堂 PM 慣例：M＝Mκ Mφ Mω。旋轉順序改變，結果一般也會改變。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/spatial-rotation.md",
+          "label": "S05 pp.3–15；旋轉符號疑點另列"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：轉相機，像點往哪移？",
+      "body": "<p>先只改 κ，再加入 ω、φ。觀察矩陣、像點與可見性提示；此模組採 PM 約定，像方結果單位為 mm。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/spatial-rotation.md",
+          "label": "S05 pp.6–13,18–24"
+        }
+      ],
+      "lab": "rotation",
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "共線條件：三個點在一條線上",
+      "body": "<p>理想像點、攝影中心與物點共線。令 q＝M(A−O)，在課堂 PM、無畸變模型中：</p><div class=\"equation\">$$x_a-x_p=-f q_1/q_3,\\qquad y_a-y_p=-f q_2/q_3$$</div><p>由像向量 λq 的第三列 −f＝λq₃，消去 λ，得到上式。q₃＝0 時沒有有限投影；還須檢查點在相機前方。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/collinearity.md",
+          "label": "S05 pp.16–24；Wiki 推導補齊"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "前方交會與後方交會",
+      "body": "<div class=\"split\"><div><h3>前方交會</h3><p>相機關係已知，由多幅影像中的對應射線估物點。</p></div><div><h3>後方交會</h3><p>物方控制點已知，由其像點估相機姿態。</p></div></div><p>光束法平差同時調整相機與三維點；方程數足夠仍不保證幾何非退化或解唯一。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/orientation-adjustment.md",
+          "label": "S05 pp.25–28,55–61"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "DLT 如何連回平面模型？",
+      "body": "<p>直接線性轉換（DLT）以分式描述三維點到影像的投影，交叉相乘後可對係數做線性初估。</p><p>把物點限制在 Z＝0 的平面，就能化成平面八係數形式；一般三維場景不能直接用平面 H 取代。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/collinearity.md",
+          "label": "S05 pp.49–54"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "案例：量到板子動，還是相機動？",
+      "body": "<p>教材以雙相機量測太陽能板變形：同步拍攝 → 偵測標點 → 前方交會 → 必要的晃動修正 → 比較不同時間的三維位置。</p><p class=\"callout\">先固定比較座標系；未補償的相機移動可能被誤當成板體變形。</p><p>水下案例另須考慮折射與率定環境。本 Wiki 未重現實測精度。</p>",
+      "refs": [
+        {
+          "path": "wiki/cases/engineering-measurement.md",
+          "label": "S05 pp.29–48"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "本章回顧：用自己的話說一次",
+      "body": "<p>理解座標旋轉、物點投影及交會，連到實際工程量測。</p><p class=\"callout\">回想本章：關鍵公式需要哪些條件？互動參數改變後，你能解釋結果嗎？</p><p>需要完整推導時，展開下方「來源與延伸」。</p><p><a href=\"index.html\">← 回到七章課程</a></p>",
+      "refs": [
+        {
+          "path": "wiki/chapters/05-collinearity.md",
+          "label": "S05：完整筆記與延伸"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    }
+  ]
+}

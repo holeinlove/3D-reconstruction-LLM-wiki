@@ -1,13 +1,56 @@
 {
   "date": "2026-11-22",
   "passed": true,
-  "slides": 22,
-  "formulas": 7,
-  "references": 37,
-  "interactive_modules": 5,
+  "decks": [
+    {
+      "file": "slides/deck.json",
+      "title": "兩張照片，如何變成 3D？",
+      "slides": 22
+    },
+    {
+      "file": "slides/chapters/01.json",
+      "title": "影像感測器",
+      "slides": 8
+    },
+    {
+      "file": "slides/chapters/02.json",
+      "title": "相機率定",
+      "slides": 8
+    },
+    {
+      "file": "slides/chapters/03.json",
+      "title": "平面影像轉換",
+      "slides": 9
+    },
+    {
+      "file": "slides/chapters/04.json",
+      "title": "影像匹配",
+      "slides": 8
+    },
+    {
+      "file": "slides/chapters/05.json",
+      "title": "空間轉換與共線條件式",
+      "slides": 8
+    },
+    {
+      "file": "slides/chapters/06.json",
+      "title": "影像匹配之應用",
+      "slides": 8
+    },
+    {
+      "file": "slides/chapters/07.json",
+      "title": "核幾何與立體視覺",
+      "slides": 9
+    }
+  ],
+  "slides": 80,
+  "formulas": 20,
+  "references": 101,
+  "interactive_instances": 14,
   "errors": [],
   "coverage": [
     {
+      "deck": "slides/deck.json",
       "slide": 1,
       "title": "兩張照片，如何變成 3D？",
       "wiki_sources": [
@@ -19,6 +62,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 2,
       "title": "你將能解釋這三件事",
       "wiki_sources": [
@@ -30,6 +74,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 3,
       "title": "先看完整路線，再拆成小問題",
       "wiki_sources": [
@@ -45,6 +90,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 4,
       "title": "照片保留方向，卻壓掉了深度",
       "wiki_sources": [
@@ -56,6 +102,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 5,
       "title": "一個像素，在地面有多大？",
       "wiki_sources": [
@@ -67,6 +114,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 6,
       "title": "動手試：拉遠相機會怎樣？",
       "wiki_sources": [
@@ -78,6 +126,7 @@
       "interactive": "gsd"
     },
     {
+      "deck": "slides/deck.json",
       "slide": 7,
       "title": "率定：先認識自己的相機",
       "wiki_sources": [
@@ -93,6 +142,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 8,
       "title": "動手試：網格為什麼會彎？",
       "wiki_sources": [
@@ -104,6 +154,7 @@
       "interactive": "distortion"
     },
     {
+      "deck": "slides/deck.json",
       "slide": 9,
       "title": "匹配：找到同一物點的兩次出現",
       "wiki_sources": [
@@ -119,6 +170,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 10,
       "title": "動手試：外觀篩選與幾何篩選",
       "wiki_sources": [
@@ -130,6 +182,7 @@
       "interactive": "matching"
     },
     {
+      "deck": "slides/deck.json",
       "slide": 11,
       "title": "平面拼接，還不是一般 3D 重建",
       "wiki_sources": [
@@ -145,6 +198,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 12,
       "title": "極線：把二維搜尋縮成一條線",
       "wiki_sources": [
@@ -156,6 +210,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 13,
       "title": "動手試：點移動，極線也跟著移動",
       "wiki_sources": [
@@ -167,6 +222,7 @@
       "interactive": "epipolar"
     },
     {
+      "deck": "slides/deck.json",
       "slide": 14,
       "title": "視差：同一物點在左右圖的位移",
       "wiki_sources": [
@@ -178,6 +234,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 15,
       "title": "動手試：視差減半，深度怎麼變？",
       "wiki_sources": [
@@ -189,6 +246,7 @@
       "interactive": "stereo"
     },
     {
+      "deck": "slides/deck.json",
       "slide": 16,
       "title": "點雲是中間成果，還需要檢查",
       "wiki_sources": [
@@ -204,6 +262,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 17,
       "title": "快速檢查：你會怎麼解釋？",
       "wiki_sources": [
@@ -223,6 +282,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 18,
       "title": "這份教材如何從 Wiki 生成？",
       "wiki_sources": [
@@ -238,6 +298,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 19,
       "title": "為什麼把檢查拆成幾個小回圈？",
       "wiki_sources": [
@@ -253,6 +314,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 20,
       "title": "實際檢查：成功代表什麼？",
       "wiki_sources": [
@@ -272,6 +334,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 21,
       "title": "反思：最容易失真的節點在哪裡？",
       "wiki_sources": [
@@ -287,6 +350,7 @@
       "interactive": null
     },
     {
+      "deck": "slides/deck.json",
       "slide": 22,
       "title": "帶走一條主線，再回 Wiki 深入",
       "wiki_sources": [
@@ -305,6 +369,726 @@
         {
           "path": "reports/slides-check.md",
           "label": "本次簡報檢查與修正紀錄"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 1,
+      "title": "影像感測器",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/01-sensors.md",
+          "label": "S01：章節導覽與教材頁碼"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 2,
+      "title": "相機記錄了什麼？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/sensing-quality.md",
+          "label": "S01 pp.2–11,12–38"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 3,
+      "title": "解析度不只一種",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/sensing-quality.md",
+          "label": "S01 pp.12–28；Wiki 算術核對"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 4,
+      "title": "曝光是一種取捨",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/sensing-quality.md",
+          "label": "S01 pp.29–42；比例式為 Wiki 補充"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 5,
+      "title": "一個像素，在地面有多大？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "S01 pp.61–65：幾何與限制"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 6,
+      "title": "動手試：拉遠相機會怎樣？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "S01 pp.61–65"
+        }
+      ],
+      "interactive": "gsd"
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 7,
+      "title": "HW1：從任務反推取像參數",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/hw1-camera.md",
+          "label": "S01 pp.93–104：HW1 與取像案例"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/01.json",
+      "slide": 8,
+      "title": "本章回顧：用自己的話說一次",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/01-sensors.md",
+          "label": "S01：完整筆記與延伸"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 1,
+      "title": "相機率定",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/02-calibration.md",
+          "label": "S02：章節導覽與教材頁碼"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 2,
+      "title": "照片保留方向，卻壓掉了深度",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/intrinsics.md",
+          "label": "S02 pp.14–16：投影與推導"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 3,
+      "title": "率定：先認識自己的相機",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/intrinsics.md",
+          "label": "S02 pp.8–9,18,27"
+        },
+        {
+          "path": "wiki/concepts/calibration-methods.md",
+          "label": "S02：率定方法與條件"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 4,
+      "title": "從相機方向換成像素",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/intrinsics.md",
+          "label": "S02 pp.12–19：內參與座標"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 5,
+      "title": "動手試：網格為什麼會彎？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/distortion.md",
+          "label": "S02 pp.20–26；E01：係數慣例"
+        }
+      ],
+      "interactive": "distortion"
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 6,
+      "title": "棋盤格怎麼幫忙率定？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/checkerboard.md",
+          "label": "S02 pp.35–36；E03 §2.2–3.3"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 7,
+      "title": "小殘差，不是唯一驗收標準",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/checkerboard.md",
+          "label": "S02 pp.35–44；Wiki RMSE 定義與自建算例"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/02.json",
+      "slide": 8,
+      "title": "本章回顧：用自己的話說一次",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/02-calibration.md",
+          "label": "S02：完整筆記與延伸"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 1,
+      "title": "平面影像轉換",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/03-planar.md",
+          "label": "S03：章節導覽與教材頁碼"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 2,
+      "title": "平面拼接，還不是一般 3D 重建",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.7–18：模型比較"
+        },
+        {
+          "path": "wiki/cases/hw3-stitching.md",
+          "label": "S03：HW3 拼接案例"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 3,
+      "title": "模型多一點彈性，代表什麼？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.3–18"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 4,
+      "title": "動手試：同一矩形，三種模型",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.7–18"
+        }
+      ],
+      "interactive": "planar"
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 5,
+      "title": "最小二乘：讓所有點一起說話",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/least-squares.md",
+          "label": "S03 pp.27–32；Wiki 符號整理與實作補充"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 6,
+      "title": "變換位置後，像素值從哪來？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/interpolation.md",
+          "label": "S03 pp.35–54"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 7,
+      "title": "動手試：四角灰階怎麼混合？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/interpolation.md",
+          "label": "S03 pp.47–48"
+        }
+      ],
+      "interactive": "bilinear"
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 8,
+      "title": "HW3：拼得上，還要看誤差",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/hw3-stitching.md",
+          "label": "S03 pp.19–34：拼接與模型比較"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/03.json",
+      "slide": 9,
+      "title": "本章回顧：用自己的話說一次",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/03-planar.md",
+          "label": "S03：完整筆記與延伸"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 1,
+      "title": "影像匹配",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/04-matching.md",
+          "label": "S04：章節導覽與教材頁碼"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 2,
+      "title": "匹配：找到同一物點的兩次出現",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/feature-matching.md",
+          "label": "S04 pp.47–50：描述子與比率"
+        },
+        {
+          "path": "wiki/concepts/robust-estimation.md",
+          "label": "S04 p.50：幾何驗證"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 3,
+      "title": "哪種位置容易被重新找到？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/feature-detection.md",
+          "label": "S04 pp.3–11"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 4,
+      "title": "偵測器與描述子，工作不同",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/feature-matching.md",
+          "label": "S04 pp.33–48；偵測器見 pp.12–20"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 5,
+      "title": "動手試：外觀篩選與幾何篩選",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/robust-estimation.md",
+          "label": "S04 pp.47,50；Wiki 補充機率式"
+        }
+      ],
+      "interactive": "matching"
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 6,
+      "title": "RANSAC：先問模型是否適合",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/robust-estimation.md",
+          "label": "S04 pp.49–50"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 7,
+      "title": "點雲是中間成果，還需要檢查",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/sfm-pipeline.md",
+          "label": "S04 pp.51–52；S05 pp.58–60"
+        },
+        {
+          "path": "wiki/cases/hw4-stereo.md",
+          "label": "S07 pp.41–54：作業方法，未實拍執行"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/04.json",
+      "slide": 8,
+      "title": "本章回顧：用自己的話說一次",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/04-matching.md",
+          "label": "S04：完整筆記與延伸"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 1,
+      "title": "空間轉換與共線條件式",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/05-collinearity.md",
+          "label": "S05：章節導覽與教材頁碼"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 2,
+      "title": "同一個點，在兩套座標裡",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/spatial-rotation.md",
+          "label": "S05 pp.3–15；旋轉符號疑點另列"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 3,
+      "title": "動手試：轉相機，像點往哪移？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/spatial-rotation.md",
+          "label": "S05 pp.6–13,18–24"
+        }
+      ],
+      "interactive": "rotation"
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 4,
+      "title": "共線條件：三個點在一條線上",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/collinearity.md",
+          "label": "S05 pp.16–24；Wiki 推導補齊"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 5,
+      "title": "前方交會與後方交會",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/orientation-adjustment.md",
+          "label": "S05 pp.25–28,55–61"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 6,
+      "title": "DLT 如何連回平面模型？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/collinearity.md",
+          "label": "S05 pp.49–54"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 7,
+      "title": "案例：量到板子動，還是相機動？",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/engineering-measurement.md",
+          "label": "S05 pp.29–48"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/05.json",
+      "slide": 8,
+      "title": "本章回顧：用自己的話說一次",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/05-collinearity.md",
+          "label": "S05：完整筆記與延伸"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 1,
+      "title": "影像匹配之應用",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/06-applications.md",
+          "label": "S06：章節導覽與教材頁碼"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 2,
+      "title": "不同波段，看見的外觀可能不同",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/multispectral-registration.md",
+          "label": "S06 pp.4–10"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 3,
+      "title": "點數要控制，幾何也要驗證",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/multispectral-registration.md",
+          "label": "S06 pp.11–15,24–29"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 4,
+      "title": "三個比率，三種分母",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/matching-metrics.md",
+          "label": "S06 pp.16–18"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 5,
+      "title": "動手試：改計數，看看指標",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/matching-metrics.md",
+          "label": "S06 p.16；Wiki 算術核對"
+        }
+      ],
+      "interactive": "metrics"
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 6,
+      "title": "案例：UAV 對位衛星影像",
+      "wiki_sources": [
+        {
+          "path": "wiki/cases/geographic-registration.md",
+          "label": "S06 pp.34–42,59–68"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 7,
+      "title": "學習式匹配也有不同角色",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/learned-matching.md",
+          "label": "S06 pp.43–58；E06／E07 外部查核"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/06.json",
+      "slide": 8,
+      "title": "本章回顧：用自己的話說一次",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/06-applications.md",
+          "label": "S06：完整筆記與延伸"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 1,
+      "title": "核幾何與立體視覺",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/07-epipolar.md",
+          "label": "S07：章節導覽與教材頁碼"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 2,
+      "title": "極線：把二維搜尋縮成一條線",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "S07 pp.3–8,17–24：共面約束"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 3,
+      "title": "動手試：點移動，極線也跟著移動",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "S07 pp.3–8,17–24；自建幾何示意"
+        }
+      ],
+      "interactive": "epipolar"
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 4,
+      "title": "F 與 E：相同幾何，不同座標",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/essential-decomposition.md",
+          "label": "S07 pp.24–32；Wiki 對不同 K 的補充"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 5,
+      "title": "視差：同一物點在左右圖的位移",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "S07 pp.34–39；Wiki 推導補齊"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 6,
+      "title": "動手試：視差減半，深度怎麼變？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "S07 pp.36–39；Wiki 自建算例"
+        }
+      ],
+      "interactive": "stereo"
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 7,
+      "title": "從視差圖到點雲",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/stereo-matching.md",
+          "label": "S07 pp.51–54；E08 實作補充"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 8,
+      "title": "快速檢查：你會怎麼解釋？",
+      "wiki_sources": [
+        {
+          "path": "wiki/concepts/stereo-depth.md",
+          "label": "深度公式與條件"
+        },
+        {
+          "path": "wiki/concepts/epipolar-geometry.md",
+          "label": "極線限制"
+        },
+        {
+          "path": "wiki/concepts/sensor-geometry.md",
+          "label": "GSD 定義"
+        }
+      ],
+      "interactive": null
+    },
+    {
+      "deck": "slides/chapters/07.json",
+      "slide": 9,
+      "title": "本章回顧：用自己的話說一次",
+      "wiki_sources": [
+        {
+          "path": "wiki/chapters/07-epipolar.md",
+          "label": "S07：完整筆記與延伸"
         }
       ],
       "interactive": null

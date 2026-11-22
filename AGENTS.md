@@ -24,3 +24,6 @@
 
 ## 第三階段：HTML 教學簡報
 修改 slides/deck.json 後執行 python scripts/build_slides.py、node scripts/check_slides.cjs。逐頁保留來源與模型假設；互動沿用共用純模型，模型修改需重跑 check_labs.cjs。不得以 Wiki 舊驗收替代簡報本次瀏覽器紀錄。
+
+## 七章教學入口改版
+七章簡報來源為 slides/chapters/01.json～07.json；原總覽仍為 slides/deck.json。修改後執行 build_slides.py、check_slides.cjs。slides/index.html 是卡片首頁，overview.html 才是原 22 頁總覽，勿再覆寫首頁為單份簡報。

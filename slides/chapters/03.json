@@ -1,0 +1,129 @@
+{
+  "title": "平面影像轉換",
+  "description": "比較相似、仿射與透視模型，再理解估參數與像素內插。",
+  "chapter": 3,
+  "language": "zh-Hant",
+  "slides": [
+    {
+      "title": "平面影像轉換",
+      "body": "<p class=\"lead\">比較相似、仿射與透視模型，再理解估參數與像素內插。</p><div class=\"journey\"><span>理解概念</span><b>→</b><span>操作觀察</span><b>→</b><span>回顧應用</span></div><p>第 03 章 · 初學者教學與複習<br>使用下方箭頭翻頁，隨時回到章節首頁。</p>",
+      "refs": [
+        {
+          "path": "wiki/chapters/03-planar.md",
+          "label": "S03：章節導覽與教材頁碼"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "平面拼接，還不是一般 3D 重建",
+      "body": "<div class=\"split\"><div><h3>平面轉換 Homography</h3><p>用 H 對應兩張影像的平面位置；一般透視轉換不保證平行線仍平行。</p></div><div><h3>三維場景</h3><p>不同深度可有不同視差；不能期待一個平面模型對齊所有物體。</p></div></div><p class=\"callout\">有漂亮的全景拼接，不代表已得到每個點的三維座標。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.7–18：模型比較"
+        },
+        {
+          "path": "wiki/cases/hw3-stitching.md",
+          "label": "S03：HW3 拼接案例"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "模型多一點彈性，代表什麼？",
+      "body": "<table><tr><th>模型</th><th>自由度</th><th>能描述</th></tr><tr><td>相似 Similarity</td><td>4</td><td>平移、旋轉、共同尺度</td></tr><tr><td>仿射 Affine</td><td>6</td><td>再加入非等向尺度與剪切</td></tr><tr><td>透視 Homography</td><td>8</td><td>平面透視效果</td></tr></table><p>非退化配置下，理論最少對應點分別為 2、3、4；實作仍需更多可靠點與檢查。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.3–18"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：同一矩形，三種模型",
+      "body": "<p>先從相似切到仿射，再切到透視。觀察角度、平行線與矩陣 H；跨越投影無窮遠時會提示退化。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/planar-transforms.md",
+          "label": "S03 pp.7–18"
+        }
+      ],
+      "lab": "planar",
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "最小二乘：讓所有點一起說話",
+      "body": "<p>選好模型後，利用多組對應點估參數。固定 v＝Aθ−L，讓殘差平方和最小：</p><div class=\"equation\">$$J=v^Tv,\\qquad A^TA\\hat\\theta=A^TL$$</div><p>θ：模型參數；A：設計矩陣；L：觀測。需要足夠秩與良好幾何配置；實作用 QR／SVD 比直接求反矩陣更合適。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/least-squares.md",
+          "label": "S03 pp.27–32；Wiki 符號整理與實作補充"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "變換位置後，像素值從哪來？",
+      "body": "<p>反算（Inverse Mapping）：逐一走訪輸出像素，找回輸入影像的座標；落在非整數位置時，需要內插。</p><p>最鄰近取一點；雙線性取四角加權；它們不會創造原圖沒有的真實細節。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/interpolation.md",
+          "label": "S03 pp.35–54"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "動手試：四角灰階怎麼混合？",
+      "body": "<p>中心點的四個權重各是 1/4。移到角落時，該角權重會變成 1；看看結果是否符合預測。</p>",
+      "refs": [
+        {
+          "path": "wiki/concepts/interpolation.md",
+          "label": "S03 pp.47–48"
+        }
+      ],
+      "lab": "bilinear",
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "HW3：拼得上，還要看誤差",
+      "body": "<p>比較不同模型的拼接結果與誤差向量；檢查周邊是否出現系統性偏差，並使用未參與估計的點評估。</p><p class=\"callout\">更多參數可能降低擬合殘差，卻不一定提高新點精度。</p>",
+      "refs": [
+        {
+          "path": "wiki/cases/hw3-stitching.md",
+          "label": "S03 pp.19–34：拼接與模型比較"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    },
+    {
+      "title": "本章回顧：用自己的話說一次",
+      "body": "<p>比較相似、仿射與透視模型，再理解估參數與像素內插。</p><p class=\"callout\">回想本章：關鍵公式需要哪些條件？互動參數改變後，你能解釋結果嗎？</p><p>需要完整推導時，展開下方「來源與延伸」。</p><p><a href=\"index.html\">← 回到七章課程</a></p>",
+      "refs": [
+        {
+          "path": "wiki/chapters/03-planar.md",
+          "label": "S03：完整筆記與延伸"
+        }
+      ],
+      "lab": null,
+      "note": "",
+      "kind": "lesson"
+    }
+  ]
+}

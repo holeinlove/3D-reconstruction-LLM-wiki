@@ -30,4 +30,4 @@
 [術語](glossary.md) · [來源索引](sources.md) · [疑點台帳](issues.md) · [流程 Graph](../workflow/graph.md) · [本次六章匯入與互動驗收](../reports/course-import.md) · [初次試做歷史紀錄](../reports/pilot-02.md) · [日誌](log.md)。
 
 ## 初學者教學簡報
-[開啟 22 頁 HTML 簡報](../slides/index.html)：兩張照片，如何變成 3D？保留五個互動示範、來源對應、流程與反思。[簡報檢查紀錄](../reports/slides-check.md)。
+[開啟七章 HTML 簡報首頁](../slides/index.html)：依第 01～07 章選課，進入各章互動教學。另有[課程總覽與作業流程](../slides/overview.html)，保留來源對應、Loop／Graph、實際檢查與反思。[七章驗收](../reports/chapters-check.md)。
