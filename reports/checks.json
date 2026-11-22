@@ -87,7 +87,7 @@
       "check": "Markdown links",
       "passed": true,
       "detail": {
-        "checked": 366,
+        "checked": 454,
         "broken": []
       }
     },
@@ -95,7 +95,7 @@
       "check": "slide references",
       "passed": true,
       "detail": {
-        "checked": 270,
+        "checked": 291,
         "invalid": [],
         "limit": "Range/identity check, not claim fidelity"
       }

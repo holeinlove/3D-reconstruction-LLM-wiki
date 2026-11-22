@@ -6,14 +6,14 @@
 | ID | 教材 | 頁數 | 狀態 |
 | --- | --- | --- | --- |
 | S01 | 01 影像感測器 | 104 | 已匯入 |
-| S02 | 02 相機率定 | 44 | 已完成本次試做整理，待使用者確認 |
+| S02 | 02 相機率定 | 44 | 試做形式已確認，已匯入 |
 | S03 | 03 平面影像轉換 | 54 | 已匯入 |
 | S04 | 04 影像匹配 | 52 | 已匯入 |
 | S05 | 05 空間轉換與共線條件式 | 61 | 已匯入 |
 | S06 | 06 影像匹配之應用 | 68 | 已匯入 |
 | S07 | 07 核幾何 | 54 | 已匯入 |
 
-原始檔名與 S02 雜湊見 [catalog.json](../sources/catalog.json)，全七章逐頁去向見 [coverage.json](../sources/coverage.json)。未公開原始教材，本頁不提供假裝可下載的連結。
+原始檔名與七份來源 SHA-256見 [catalog.json](../sources/catalog.json)，全七章逐頁去向見 [coverage.json](../sources/coverage.json)。未公開原始教材，本頁不提供假裝可下載的連結。
 
 ## 外部查核（僅輔助，不取代教材）
 - **E01**：[OpenCV 4.13.0 幾何模組](https://docs.opencv.org/4.13.0/d9/d0c/group__calib3d.html)，Detailed Description。核對 normalized coordinates、K 與畸變參數慣例。

@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-22",
+  "passed": true,
+  "checks": [
+    {
+      "name": "S01 GSD textbook 10 cm",
+      "passed": true
+    },
+    {
+      "name": "FOV horizontal independent trigonometry",
+      "passed": true
+    },
+    {
+      "name": "footprint equals W times GSD",
+      "passed": true
+    },
+    {
+      "name": "identity preserves corner",
+      "passed": true
+    },
+    {
+      "name": "singular affine detected",
+      "passed": true
+    },
+    {
+      "name": "projective horizon detection",
+      "passed": true
+    },
+    {
+      "name": "bilinear center",
+      "passed": true
+    },
+    {
+      "name": "constant image invariant",
+      "passed": true
+    },
+    {
+      "name": "corner interpolation exact",
+      "passed": true
+    },
+    {
+      "name": "ratio and RANSAC known values",
+      "passed": true
+    },
+    {
+      "name": "zero descriptor denominator guarded",
+      "passed": true
+    },
+    {
+      "name": "zero inlier ratio guarded",
+      "passed": true
+    },
+    {
+      "name": "distance order validated",
+      "passed": true
+    },
+    {
+      "name": "MR arithmetic correction",
+      "passed": true
+    },
+    {
+      "name": "invalid matching counts guarded",
+      "passed": true
+    },
+    {
+      "name": "undefined CR denominator guarded",
+      "passed": true
+    },
+    {
+      "name": "PM identity projection analytic",
+      "passed": true
+    },
+    {
+      "name": "PM kappa direction",
+      "passed": true
+    },
+    {
+      "name": "rotation orthogonal proper",
+      "passed": true
+    },
+    {
+      "name": "behind camera blocked",
+      "passed": true
+    },
+    {
+      "name": "generated camera points obey epipolar relation",
+      "passed": true
+    },
+    {
+      "name": "stereo analytic Z and sigma",
+      "passed": true
+    },
+    {
+      "name": "zero disparity guarded",
+      "passed": true
+    },
+    {
+      "name": "half disparity doubles depth quadruples sigma",
+      "passed": true
+    },
+    {
+      "name": "zero radial coefficient identity",
+      "passed": true
+    },
+    {
+      "name": "negative CV radial coefficient maps inward",
+      "passed": true
+    }
+  ],
+  "limit": "Known-value and invariance tests of ideal educational models, not a real camera experiment"
+}
