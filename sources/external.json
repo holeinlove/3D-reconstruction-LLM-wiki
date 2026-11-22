@@ -26,5 +26,19 @@
     "url": "https://docs.opencv.org/4.13.0/d9/dab/tutorial_homography.html",
     "locator": "Basic theory",
     "accessed": "2026-11-22"
+  },
+  {
+    "id": "E06",
+    "title": "LightGlue official",
+    "url": "https://github.com/cvg/LightGlue",
+    "locator": "README model overview",
+    "accessed": "2026-11-22"
+  },
+  {
+    "id": "E07",
+    "title": "SuperGlue official",
+    "url": "https://github.com/magicleap/SuperGluePretrainedNetwork",
+    "locator": "README model overview",
+    "accessed": "2026-11-22"
   }
 ]

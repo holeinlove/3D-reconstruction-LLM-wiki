@@ -28,7 +28,8 @@
     "filename": "影像感測與3D場景重建_04_影像匹配.pptx",
     "slides": 52,
     "author": "詹鈞評",
-    "status": "pending_ingest"
+    "status": "ingested",
+    "sha256": "23e39fea8c5d9c9eeb1f4c302340d70d530a9544fcf18a90e77c3849d4e47e89"
   },
   {
     "id": "S05",
@@ -42,7 +43,8 @@
     "filename": "影像感測與3D場景重建_06_影像匹配之應用.pptx",
     "slides": 68,
     "author": "詹鈞評",
-    "status": "pending_ingest"
+    "status": "ingested",
+    "sha256": "c2e15fa56558cac59004420488eab61031d866f8b19b3633dacb65444d0857d5"
   },
   {
     "id": "S07",

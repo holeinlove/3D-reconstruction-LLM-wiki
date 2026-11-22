@@ -34,6 +34,26 @@
       "detail": "SHA-256 recorded"
     },
     {
+      "check": "S04 slide coverage",
+      "passed": true,
+      "detail": "52 entries; 52 slides"
+    },
+    {
+      "check": "S04 fingerprint",
+      "passed": true,
+      "detail": "SHA-256 recorded"
+    },
+    {
+      "check": "S06 slide coverage",
+      "passed": true,
+      "detail": "68 entries; 68 slides"
+    },
+    {
+      "check": "S06 fingerprint",
+      "passed": true,
+      "detail": "SHA-256 recorded"
+    },
+    {
       "check": "coverage targets",
       "passed": true,
       "detail": "Every disposition points to a real page"
@@ -47,7 +67,7 @@
       "check": "Markdown links",
       "passed": true,
       "detail": {
-        "checked": 193,
+        "checked": 277,
         "broken": []
       }
     },
@@ -55,7 +75,7 @@
       "check": "slide references",
       "passed": true,
       "detail": {
-        "checked": 136,
+        "checked": 202,
         "invalid": [],
         "limit": "Range/identity check, not claim fidelity"
       }
